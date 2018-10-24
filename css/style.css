@@ -1,0 +1,45 @@
+.collapse .navbar-collapse {
+  color: blue;
+}
+
+a.nav-link {
+  color: #396EA8 !important;
+  font-weight: bold;
+}
+
+img.header-icon {
+  width: 35px;
+  height: 35px;
+}
+
+img.header-icon-logo {
+  width: 150px;
+  height: 75px;
+}
+
+.section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 50px;
+  color: #707070;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.section-title:after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: 0;
+  height: 1px;
+  width: 50%;
+  /* or 100px */
+  border-bottom: 2px solid #1085E4;
+}
+/*# sourceMappingURL=style.css.map */
