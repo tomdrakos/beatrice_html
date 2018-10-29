@@ -1,7 +1,5 @@
-$primary-blue:  #396EA8;
-$secondary-blue:  #1085E4;
-
-
+@import 'nav';
+@import 'utilities';
 
 .collapse .navbar-collapse {
     color: blue;
@@ -44,7 +42,7 @@ img.header-icon-logo, {
     font-size: 50px;
     color: #707070;
     margin-top: 120px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     position: relative;
 }
   
@@ -59,13 +57,7 @@ img.header-icon-logo, {
 //   }
 
   .section-title:after {
-    content : "";
-    position: absolute;
-    left    : 0%;
-    bottom  : 0;
-    height  : 1px;
-    width   : 50%;  /* or 100px */
-    border-bottom:2px solid $secondary-blue;
+     
   }
 
 //   .section-title:before, .section-title:after {
