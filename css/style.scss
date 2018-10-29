@@ -1,35 +1,22 @@
 @import 'nav';
 @import 'utilities';
 
-.collapse .navbar-collapse {
-    color: blue;
+html{
+    height:100%;
+    width:100%;
 }
 
-a.nav-link{
-    color: $primary-blue !important; 
-    font-weight: bold ;
-} 
-
-img.header-icon, {
-    width: 35px;
-    height: 35px;
+.rwd-background {
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100vh;
+    width:100%; 
 }
-
-img.header-icon-logo, {
-    width: 150px;
-    height: 75px;
-}
-
-// .carousel-item {
-//   height: 100vh;
-//   min-height: 300px;
-//   background: no-repeat center center scroll;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover;
-// }
-
 
 .section-title {
     display: -webkit-box;
@@ -45,7 +32,47 @@ img.header-icon-logo, {
     margin-bottom: 80px;
     position: relative;
 }
+
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
   
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+  
+    /* Set up positioning */
+    //position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
+
+
+//SHAME
+    
+//   .section-title:after {
+     
+// }
+
+// .carousel-item {
+//   height: 100vh;
+//   min-height: 300px;
+//   background: no-repeat center center scroll;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+// }
+
+
 //   .section-title:after {
 //     content:""; 
 //     background: #1085E4; 
@@ -56,9 +83,6 @@ img.header-icon-logo, {
 //     width: 1px;
 //   }
 
-  .section-title:after {
-     
-  }
 
 //   .section-title:before, .section-title:after {
 //     content: "";

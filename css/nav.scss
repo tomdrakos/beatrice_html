@@ -7,3 +7,22 @@
 .btn-link {
     color: $primary-blue;
 }
+
+.collapse .navbar-collapse {
+    color: blue;
+}
+
+a.nav-link{
+    color: $primary-blue !important; 
+    font-weight: bold ;
+} 
+
+img.header-icon, {
+    width: 35px;
+    height: 35px;
+}
+
+img.header-icon-logo, {
+    width: 150px;
+    height: 75px;
+}
