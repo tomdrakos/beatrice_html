@@ -24,4 +24,8 @@ img.header-icon-logo {
   width: 150px;
   height: 75px;
 }
+
+.navbar.navbar-expand-lg.fixed-top {
+  background-color: white;
+}
 /*# sourceMappingURL=nav.css.map */

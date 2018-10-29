@@ -25,6 +25,10 @@ img.header-icon-logo {
   height: 75px;
 }
 
+.navbar.navbar-expand-lg.fixed-top {
+  background-color: white;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -40,6 +44,27 @@ html {
   width: 100%;
 }
 
+.img-bg {
+  background: url(../img/main_page_bg_1.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.img-bg h1 {
+  color: white;
+  text-shadow: 3px 2px 3px #7070704a;
+}
+
 .section-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -50,9 +75,35 @@ html {
   flex-direction: row;
   font-size: 50px;
   color: #707070;
-  margin-top: 120px;
+  margin-top: 80px;
   margin-bottom: 80px;
   position: relative;
+}
+
+.section-title .subtitle {
+  position: absolute;
+  bottom: -50px;
+  right: 5px;
+  text-align: right;
+  font-size: 25px;
+}
+
+.fas, .fab {
+  font-size: 150px;
+  color: white;
+}
+
+.icon-wrapper {
+  background-color: #1085E4;
+  border-radius: 50%;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.icon-title {
+  color: #1085E4;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 img.bg {
@@ -74,5 +125,29 @@ img.bg {
     margin-left: -512px;
     /* 50% */
   }
+}
+
+.section-title:after {
+  content: "";
+  background: #1085E4;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  height: 3px;
+  width: 45%;
+}
+
+.product-item {
+  margin-top: 60px;
+}
+
+.product-item .header {
+  background-color: #396EA8;
+  height: 250px;
+}
+
+.product-item .footer-image {
+  border: solid 2px #396EA8;
+  height: 200px;
 }
 /*# sourceMappingURL=style.css.map */
