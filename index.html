@@ -16,20 +16,50 @@
   <link href="css/nav.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
     crossorigin="anonymous">
-
 </head>
 
 <body>
 
+  <nav class="navbar fixed-top navbar-light navbar-expand-sm navbar-template">
+    <a class="navbar-brand" href="#"><img class="header-icon-logo" src="icon/logo.svg"></a>
+    <div class="d-flex flex-row order-2 order-sm-3">
+      <ul class="navbar-nav flex-row">
+        <!-- <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-facebook"></i></a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-youtube"></i></a></li>
+        <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-instagram"></i></a></li> -->
+        <li style="margin-right: 10px;"><a class="nav-link px-2" href="#"><img class="header-icon" src="icon/facebook_icon.svg"></a></li>
+        <li style="margin-right: 10px;"><a class="nav-link px-2" href="#"><img class="header-icon" src="icon/linkedin_icon.svg"></a></li>
+        <!-- <li style="margin-right: 10px;"><a class="nav-link px-2" href="#"><div style="height: auto;border-left: solid 2px #396EA8;"></a></li> -->
+        <!-- <li style="margin-right: 10px;"><img class="header-icon" src="icon/linkedin_icon.svg"></li>
+        <li style="margin-right: 10px;"> <div style="height: 40px;border-left: solid 2px #396EA8;"></div> </li> -->
+      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse order-3 order-sm-2" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Produkty</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Cennik</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+        <li class="nav-item d-none d-sm-block"><a class="nav-link" href="#"> | </a></li>
+      </ul>
+    </div>
+  </nav>
+
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg">
+  <!-- <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <!-- <img class="header-icon" src="icon/facebook_icon.svg">
-      <img class="header-icon" src="icon/linkedin_icon.svg">
-      <img class="header-icon" src="icon/email_icon.svg">
-      <img class="header-icon" src="icon/telephone_icon.svg"> -->
-      <a class="navbar-brand" href="#">
-          <img class="header-icon-logo" src="icon/logo.svg" onerror="this.onerror=null; this.src='image.png'">
+      <div class="d-none d-sm-block">
+          <img class="header-icon" src="icon/facebook_icon.svg">
+          <img class="header-icon" src="icon/linkedin_icon.svg">
+          <img class="header-icon" src="icon/email_icon.svg">
+          <img class="header-icon" src="icon/telephone_icon.svg">
+      </div>
+      <a class="navbar-brand" href="/">
+          <img class="header-icon-logo" src="icon/logo.svg">
       </a>
       <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3 collapsed" data-toggle="collapse"
         data-target="#navbarResponsive" type="button" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation"><svg
@@ -57,7 +87,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
   <div class="img-bg">
     <h1>Siatki choinkowe oraz stożki na kwiaty</h1>
   </div>
@@ -171,30 +201,31 @@
       </div>
     </div>
     <div class="row">
-        <div class="col-12">
-          <div class="product-item">
-            <div class="header text-center">
-              <div class="title">
-                Stożki na kwiaty
-              </div>
-              <div class="center-div">
-                <div style="width: 20%;">
-                  <div class="bg-svg cone"></div>
-                </div>
-              </div>
-              <div class="center-div">
-                <div style="width: 60%;" class="page-control text-center">
-                  <div class="title-small">Więcej <i class="fas fa-angle-right"></i></div>
-                </div>
+      <div class="col-12">
+        <div class="product-item">
+          <div class="header text-center">
+            <div class="title">
+              Stożki na kwiaty
+            </div>
+            <div class="center-div">
+              <div style="width: 20%;">
+                <div class="bg-svg cone"></div>
               </div>
             </div>
-            <div class="footer-image">
-              <img class="d-block w-100 h-100" src="img/main_page_bg_3.jpeg" alt="Third slide">
+            <div class="center-div">
+              <div style="width: 60%;" class="page-control text-center">
+                <div class="title-small">Więcej <i class="fas fa-angle-right"></i></div>
+              </div>
             </div>
+          </div>
+          <div class="footer-image">
+            <img class="d-block w-100 h-100" src="img/main_page_bg_3.jpeg" alt="Third slide">
           </div>
         </div>
       </div>
+    </div>
   </div>
+
   <!-- Page Content -->
   <div class="container-fluid">
     <div class="section-title">Tworzymy dla Ciebie</div>
@@ -211,13 +242,13 @@
     </div>
   </div>
   <footer>
-      <div class="container">
-          <div class="row">
-              <div class="col">
-                  footer
-              </div>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          footer
+        </div>
       </div>
+    </div>
   </footer>
 
   <!-- Bootstrap core JavaScript -->

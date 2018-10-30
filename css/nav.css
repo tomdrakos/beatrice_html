@@ -16,8 +16,7 @@ a.nav-link {
 }
 
 img.header-icon {
-  width: 35px;
-  height: 35px;
+  width: 30px;
 }
 
 img.header-icon-logo {
@@ -25,7 +24,18 @@ img.header-icon-logo {
   height: 75px;
 }
 
-.navbar.navbar-expand-lg.fixed-top {
-  background-color: white;
+.navbar.navbar-expand-lg.fixed-top, .navbar {
+  background-color: white !important;
+}
+
+.nav > li:not(:last-child) {
+  border-right: 1px solid red;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  padding-bottom: 0rem;
+  padding-top: 0.0rem;
 }
 /*# sourceMappingURL=nav.css.map */

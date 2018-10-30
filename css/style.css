@@ -1,34 +1,3 @@
-.navbar {
-  border-bottom: solid 1px #396EA8;
-}
-
-.btn-link {
-  color: #396EA8;
-}
-
-.collapse .navbar-collapse {
-  color: blue;
-}
-
-a.nav-link {
-  color: #396EA8 !important;
-  font-weight: bold;
-}
-
-img.header-icon {
-  width: 35px;
-  height: 35px;
-}
-
-img.header-icon-logo {
-  width: 150px;
-  height: 75px;
-}
-
-.navbar.navbar-expand-lg.fixed-top {
-  background-color: white;
-}
-
 html {
   height: 100%;
   width: 100%;
@@ -146,7 +115,7 @@ img.bg {
 .product-item .header {
   position: relative;
   background-color: #1085E4;
-  height: 250px;
+  height: 215px;
 }
 
 .product-item .header .title {

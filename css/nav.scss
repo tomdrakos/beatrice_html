@@ -18,8 +18,7 @@ a.nav-link{
 } 
 
 img.header-icon, {
-    width: 35px;
-    height: 35px;
+    width: 30px;
 }
 
 img.header-icon-logo, {
@@ -27,6 +26,27 @@ img.header-icon-logo, {
     height: 75px;
 }
 
-.navbar.navbar-expand-lg.fixed-top {
-    background-color: white;
+.navbar.navbar-expand-lg.fixed-top, .navbar {
+    background-color: white !important;
 }
+
+
+.nav > li:not(:last-child) {
+    border-right: 1px solid red;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    padding-bottom: 0rem;
+    padding-top: 0.0rem;
+}
+// @media (min-width: 768px) {
+//     .navbar-brand
+//         {
+//             position: absolute;
+//             left: 50%;
+//             transform: translateX(-50%);
+//             min-width: 50px;
+//         }
+//     }
