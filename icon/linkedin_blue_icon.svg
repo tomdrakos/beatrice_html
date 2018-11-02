@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.055 61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1085e4;
+        stroke: #1085e4;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_15_1" data-name="Symbol 15 – 1" transform="translate(-399.5 -5888.5)">
+    <ellipse id="Oval-1" class="cls-1" cx="29.027" cy="29" rx="29.027" ry="29" transform="translate(401 5890)"/>
+    <path id="Fill-182" class="cls-2" d="M20.611,24.26a3.394,3.394,0,0,0,3.609-3.128A3.4,3.4,0,0,0,20.611,18,3.4,3.4,0,0,0,17,21.132a3.4,3.4,0,0,0,3.611,3.128" transform="translate(398.063 5885.06)"/>
+    <path id="Fill-183" class="cls-2" d="M18,46.74h6.476V29H18Z" transform="translate(397.89 5883.392)"/>
+    <path id="Fill-184" class="cls-2" d="M35.465,36.659c0-2.034,1.013-4.024,3.436-4.024s3.019,1.989,3.019,3.975V46.3h6.447V36.214c0-7.006-4.36-8.214-7.043-8.214s-4.158.861-5.859,2.947V28.559H29V46.3h6.465Z" transform="translate(397.989 5883.582)"/>
+  </g>
+</svg>

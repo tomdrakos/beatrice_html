@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295.16 156.046">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-11, .cls-13, .cls-7 {
+        fill: none;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke: #396ea8;
+      }
+
+      .cls-1 {
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #707070;
+      }
+
+      .cls-2 {
+        font-size: 19px;
+        font-family: YuGothicUI-Bold, Yu Gothic UI;
+        font-weight: 700;
+        letter-spacing: 0.081em;
+      }
+
+      .cls-14, .cls-3, .cls-5 {
+        fill: #396ea8;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 84px;
+        font-family: YuGothicUI-Semilight, Yu Gothic UI;
+        font-weight: 300;
+        letter-spacing: 0.01em;
+      }
+
+      .cls-11, .cls-5 {
+        stroke-width: 3px;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        stroke-width: 2px;
+      }
+
+      .cls-8, .cls-9 {
+        fill: rgba(255,255,255,0);
+      }
+
+      .cls-10 {
+        stroke-width: 4px;
+      }
+
+      .cls-12, .cls-14 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_10_1" data-name="Symbol 10 – 1" transform="translate(-745.713 19.312)">
+    <g id="Group_29" data-name="Group 29" transform="translate(-400 -9)">
+      <path id="Path_1502" data-name="Path 1502" class="cls-1" d="M1.655,0,0,20.347" transform="translate(1151.845 84.5)"/>
+      <path id="Path_1500" data-name="Path 1500" class="cls-1" d="M0,0H91" transform="translate(1152.5 105.5)"/>
+      <text id="Manufacture" class="cls-2" transform="translate(1269.219 110.022)"><tspan x="0" y="0">Manufacture</tspan></text>
+      <text id="b" class="cls-3" transform="translate(1146.445 80.633) rotate(2)"><tspan x="0" y="0">b</tspan></text>
+      <text id="eatrice" class="cls-4" transform="translate(1194.873 81)"><tspan x="0" y="0">eatrice</tspan></text>
+    </g>
+    <g id="Group_102" data-name="Group 102" transform="translate(256 51.729)">
+      <path id="Path_1468" data-name="Path 1468" class="cls-5" d="M7.176,0,5.226,1.116,0,4.108v8.143l7.176,4.324L12.391,13.4l1.878-1.145V4.108L11.187,2.323,9.553,1.377Z" transform="translate(630.136 70.483) rotate(120)"/>
+      <path id="Path_1469" data-name="Path 1469" class="cls-5" d="M7.176,0,0,4.108v8.143l7.177,4.324L12.391,13.4l1.878-1.145V4.108L11.187,2.323,9.553,1.377Z" transform="matrix(-0.53, 0.848, -0.848, -0.53, 597.879, 69.969)"/>
+      <g id="Ellipse_45" data-name="Ellipse 45" class="cls-6" transform="matrix(-0.087, 0.996, -0.996, -0.087, 591.647, 63.526)">
+        <ellipse class="cls-12" cx="3.93" cy="3.93" rx="3.93" ry="3.93"/>
+        <ellipse class="cls-13" cx="3.93" cy="3.93" rx="2.93" ry="2.93"/>
+      </g>
+      <path id="Path_1471" data-name="Path 1471" class="cls-7" d="M3.518,0,2.2.879,0,2.345" transform="translate(621.684 76.397) rotate(68)"/>
+      <g id="Ellipse_46" data-name="Ellipse 46" class="cls-6" transform="translate(593.852 24)">
+        <ellipse class="cls-12" cx="8.651" cy="8.651" rx="8.651" ry="8.651"/>
+        <ellipse class="cls-13" cx="8.651" cy="8.651" rx="7.651" ry="7.651"/>
+      </g>
+      <g id="Ellipse_47" data-name="Ellipse 47" class="cls-8" transform="translate(593.852 24)">
+        <ellipse class="cls-12" cx="8.651" cy="8.651" rx="8.651" ry="8.651"/>
+        <ellipse class="cls-13" cx="8.651" cy="8.651" rx="7.651" ry="7.651"/>
+      </g>
+      <g id="Path_1501" data-name="Path 1501" class="cls-9" transform="translate(597.631 48.959)">
+        <path class="cls-12" d="M 5.306852340698242 9.613716125488281 C 2.932042360305786 9.613716125488281 1.000002384185791 7.681665897369385 1.000002384185791 5.30685567855835 C 1.000002384185791 2.932045698165894 2.932042360305786 0.9999956488609314 5.306852340698242 0.9999956488609314 C 7.681662559509277 0.9999956488609314 9.613702774047852 2.932045698165894 9.613702774047852 5.30685567855835 C 9.613702774047852 7.681665897369385 7.681662559509277 9.613716125488281 5.306852340698242 9.613716125488281 Z"/>
+        <path class="cls-14" d="M 5.306852340698242 1.999995231628418 C 3.483452320098877 1.999995231628418 2.000001907348633 3.483445644378662 2.000001907348633 5.30685567855835 C 2.000001907348633 7.130265712738037 3.483452320098877 8.613716125488281 5.306852340698242 8.613716125488281 C 7.130252361297607 8.613716125488281 8.613702774047852 7.130265712738037 8.613702774047852 5.30685567855835 C 8.613702774047852 3.483445644378662 7.130252361297607 1.999995231628418 5.306852340698242 1.999995231628418 M 5.306852340698242 -4.76837158203125e-06 C 8.23774242401123 -4.76837158203125e-06 10.61370277404785 2.375955581665039 10.61370277404785 5.30685567855835 C 10.61370277404785 8.23775577545166 8.23774242401123 10.61371612548828 5.306852340698242 10.61371612548828 C 2.375962257385254 10.61371612548828 1.9073486328125e-06 8.23775577545166 1.9073486328125e-06 5.30685567855835 C 1.9073486328125e-06 2.375955581665039 2.375962257385254 -4.76837158203125e-06 5.306852340698242 -4.76837158203125e-06 Z"/>
+      </g>
+      <line id="Line_42" data-name="Line 42" class="cls-10" x1="11.363" y2="8.137" transform="translate(588.137 55.771)"/>
+      <path id="Path_1474" data-name="Path 1474" class="cls-10" d="M11.341,10.855,0,0" transform="translate(606.709 56.091) rotate(-8)"/>
+      <path id="Path_1478" data-name="Path 1478" class="cls-7" d="M9.143,0" transform="matrix(0.643, 0.766, -0.766, 0.643, 623.534, 66.518)"/>
+      <path id="Path_1472" data-name="Path 1472" class="cls-7" d="M0,0A4.589,4.589,0,0,0,5.6,0" transform="translate(604.277 28.972) rotate(166)"/>
+      <path id="Path_1484" data-name="Path 1484" class="cls-11" d="M0,0V10" transform="translate(602.5 40.771)"/>
+      <g id="Ellipse_53" data-name="Ellipse 53" class="cls-6" transform="matrix(-0.087, 0.996, -0.996, -0.087, 624.646, 64.526)">
+        <ellipse class="cls-12" cx="3.93" cy="3.93" rx="3.93" ry="3.93"/>
+        <ellipse class="cls-13" cx="3.93" cy="3.93" rx="2.93" ry="2.93"/>
+      </g>
+      <g id="Ellipse_54" data-name="Ellipse 54" class="cls-6" transform="matrix(-0.087, 0.996, -0.996, -0.087, 623.646, 64.526)">
+        <ellipse class="cls-12" cx="3.93" cy="3.93" rx="3.93" ry="3.93"/>
+        <ellipse class="cls-13" cx="3.93" cy="3.93" rx="2.93" ry="2.93"/>
+      </g>
+    </g>
+  </g>
+</svg>

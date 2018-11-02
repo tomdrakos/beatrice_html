@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.055 61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1085e4;
+        stroke: #1085e4;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Symbol_17_1" data-name="Symbol 17 – 1" transform="translate(-399.5 -6063.264)">
+    <ellipse id="Oval-1" class="cls-1" cx="29.027" cy="29" rx="29.027" ry="29" transform="translate(401 6064.764)"/>
+    <path id="ic_mail_outline_24px" class="cls-2" d="M29.524,4H5.058A2.951,2.951,0,0,0,2.015,6.841L2,23.889A2.964,2.964,0,0,0,5.058,26.73H29.524a2.964,2.964,0,0,0,3.058-2.841V6.841A2.964,2.964,0,0,0,29.524,4Zm0,19.889H5.058V9.682l12.233,7.1,12.233-7.1ZM17.291,13.944,5.058,6.841H29.524Z" transform="translate(413 6078)"/>
+  </g>
+</svg>

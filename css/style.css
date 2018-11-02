@@ -1,6 +1,64 @@
+.navbar {
+  border-bottom: solid 1px #396EA8;
+}
+
+.btn-link {
+  color: #396EA8;
+}
+
+.collapse .navbar-collapse {
+  color: blue;
+}
+
+a.nav-link {
+  color: #396EA8 !important;
+  font-weight: bold;
+}
+
+img.header-icon {
+  width: 30px;
+}
+
+img.header-icon-logo {
+  width: 150px;
+}
+
+.navbar.navbar-expand-lg.fixed-top, .navbar {
+  background-color: white !important;
+}
+
+.nav > li:not(:last-child) {
+  border-right: 1px solid red;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  padding-bottom: 0rem;
+  padding-top: 0.0rem;
+}
+
+@media (min-width: 768px) {
+  img.header-icon-logo {
+    margin-left: 100px !important;
+  }
+}
+
 html {
   height: 100%;
   width: 100%;
+}
+
+.primary {
+  color: #396EA8;
+}
+
+.secondary {
+  color: #1085E4;
+}
+
+.primary-grey {
+  color: #707070;
 }
 
 .rwd-background {
@@ -14,8 +72,6 @@ html {
 }
 
 .img-bg {
-  background: url(../img/main_page_bg_1.jpeg) no-repeat center center fixed;
-  background-size: cover;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,6 +88,16 @@ html {
 .img-bg h1 {
   color: white;
   text-shadow: 3px 2px 3px #7070704a;
+}
+
+.img-bg.first {
+  background: url(../img/main_page_bg_1.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.img-bg.secondary {
+  background: url(../img/main_page_sm_3.jpeg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .section-title {
@@ -97,6 +163,10 @@ img.bg {
   }
 }
 
+.info-section {
+  margin: 60px 0 60px 0;
+}
+
 .section-title:after {
   content: "";
   background: #1085E4;
@@ -105,6 +175,21 @@ img.bg {
   left: 0;
   height: 3px;
   width: 45%;
+}
+
+.footer-title {
+  position: relative;
+  margin-bottom: 7px;
+}
+
+.footer-title:after {
+  content: "";
+  background: #1085E4;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 2px;
+  width: 25%;
 }
 
 .product-item {
@@ -180,5 +265,12 @@ img.bg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+footer {
+  height: auto;
+  color: #999;
+  background-color: #414141;
+  border-top: .05rem solid #e5e5e5;
 }
 /*# sourceMappingURL=style.css.map */

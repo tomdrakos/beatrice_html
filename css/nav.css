@@ -21,7 +21,6 @@ img.header-icon {
 
 img.header-icon-logo {
   width: 150px;
-  height: 75px;
 }
 
 .navbar.navbar-expand-lg.fixed-top, .navbar {
@@ -37,5 +36,11 @@ img.header-icon-logo {
 .navbar {
   padding-bottom: 0rem;
   padding-top: 0.0rem;
+}
+
+@media (min-width: 768px) {
+  img.header-icon-logo {
+    margin-left: 100px !important;
+  }
 }
 /*# sourceMappingURL=nav.css.map */

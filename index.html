@@ -21,15 +21,17 @@
 <body>
 
   <nav class="navbar fixed-top navbar-light navbar-expand-sm navbar-template">
-    <a class="navbar-brand" href="#"><img class="header-icon-logo" src="icon/logo.svg"></a>
+    <a class="navbar-brand" href="#">
+      <img class="header-icon-logo" src="icon/beatrice_logo.svg">
+    </a>
     <div class="d-flex flex-row order-2 order-sm-3">
       <ul class="navbar-nav flex-row">
         <!-- <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-facebook"></i></a></li>
         <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-twitter"></i></a></li>
         <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-youtube"></i></a></li>
         <li class="nav-item"><a class="nav-link px-2" href="#"><i class="fab fa-instagram"></i></a></li> -->
-        <li style="margin-right: 10px;"><a class="nav-link px-2" href="#"><img class="header-icon" src="icon/facebook_icon.svg"></a></li>
-        <li style="margin-right: 10px;"><a class="nav-link px-2" href="#"><img class="header-icon" src="icon/linkedin_icon.svg"></a></li>
+        <li><a class="nav-link px-2" href="#"><img class="header-icon" src="icon/facebook_icon.svg"></a></li>
+        <li><a class="nav-link px-2" href="#"><img class="header-icon" src="icon/linkedin_icon.svg"></a></li>
         <!-- <li style="margin-right: 10px;"><a class="nav-link px-2" href="#"><div style="height: auto;border-left: solid 2px #396EA8;"></a></li> -->
         <!-- <li style="margin-right: 10px;"><img class="header-icon" src="icon/linkedin_icon.svg"></li>
         <li style="margin-right: 10px;"> <div style="height: 40px;border-left: solid 2px #396EA8;"></div> </li> -->
@@ -88,9 +90,25 @@
       </div>
     </div>
   </nav> -->
-  <div class="img-bg">
+
+  <div class="img-bg first">
     <h1>Siatki choinkowe oraz stożki na kwiaty</h1>
   </div>
+
+  <section class="info-section text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading"><span class="primary">B</span><span class="primary-grey">eatrice</span></h1>
+      <p class="lead text-muted">Specjalizujemy się w produkcji siatek choinkowych (różne rozmiary) oraz stożków na kwiaty doniczkowe oraz cięte.</p>
+      <p>
+        <a href="#" class="btn btn-primary">Zobacz produkty</a>
+      </p>
+    </div>
+  </section>
+
+  <div class="img-bg secondary">
+    <h1>Siatki choinkowe oraz stożki na kwiaty</h1>
+  </div>
+
   <!-- <div style="display:flex;justify-content:center;align-items:center;">
       Text Content
       <img class="bg" src="img/main_page_bg_1.jpeg">
@@ -99,7 +117,8 @@
   <!-- <div class="rwd-background">
         <img class="rwd-background" src="img/main_page_bg_1.jpeg">
     </div> -->
-  <div class="d-none d-sm-block">
+
+  <!-- <div class="d-none d-sm-block">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -126,8 +145,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-
-  </div>
+  </div> -->
 
   <!-- Page Content -->
   <div class="container">
@@ -171,60 +189,87 @@
     </div>
   </div>
 
-  <div>
-    <div class="container">
-      <div class="section-title">Nasze produkty</div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="product-item">
-          <div class="header text-center">
-            <div class="title">
-              Siatki na choinki
-            </div>
-            <div class="center-div">
-              <div style="width: 20%;">
-                <div class="bg-svg net"></div>
-              </div>
-            </div>
-            <div class="center-div">
-              <div style="width: 60%;" class="page-control text-center">
-                <div class="title-small">Więcej <i class="fas fa-angle-right"></i></div>
-              </div>
+  <!-- Products -->
+  <section>
+    <div>
+      <div class="container">
+        <div class="section-title">Nasze produkty</div>
+      </div>
+      <div class="product-item">
+        <div class="header text-center">
+          <div class="title">
+            Siatki na choinki
+          </div>
+          <div class="center-div">
+            <div style="width: 20%;">
+              <div class="bg-svg net"></div>
             </div>
           </div>
+          <div class="center-div">
+            <div style="width: 60%;" class="page-control text-center">
+              <div class="title-small">Więcej <i class="fas fa-angle-right"></i></div>
+            </div>
+          </div>
+        </div>
 
-          <div class="footer-image">
-            <img class="d-block w-100 h-100" src="img/main_page_bg_2.jpeg" alt="Third slide">
+        <div class="footer-image">
+          <img class="d-block w-100 h-100" src="img/main_page_bg_2.jpeg" alt="Third slide">
+        </div>
+      </div>
+
+
+      <div class="product-item">
+        <div class="header text-center">
+          <div class="title">
+            Stożki na kwiaty
           </div>
+          <div class="center-div">
+            <div style="width: 20%;">
+              <div class="bg-svg cone"></div>
+            </div>
+          </div>
+          <div class="center-div">
+            <div style="width: 60%;" class="page-control text-center">
+              <div class="title-small">Więcej <i class="fas fa-angle-right"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-image">
+          <img class="d-block w-100 h-100" src="img/main_page_bg_3.jpeg" alt="Third slide">
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="product-item">
-          <div class="header text-center">
-            <div class="title">
-              Stożki na kwiaty
-            </div>
-            <div class="center-div">
-              <div style="width: 20%;">
-                <div class="bg-svg cone"></div>
+  </section>
+
+  <!-- Separator -->
+  <section>
+    <div style="height: 150px;"></div>
+  </section>
+
+  <!-- Footer -->
+  <section>
+    <footer>
+      <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-12" style="">
+                <div class="h-100 d-flex flex-column order-5 order-sm-5">
+                    <div class="footer-title" style="color:white;" class="p-2" href="#">Dane kontaktowe</div>
+                    <a class="p-2" style="color:white;" href="#"><img class="header-icon" src="icon/facebook_blue_icon.svg"> beatrice@facebook.com</a>
+                    <a class="p-2" style="color:white;" href="#"><img class="header-icon" src="icon/linkedin_blue_icon.svg"> beatrice@linkedin.com</a>
+                    <a class="p-2" style="color:white;" href="#"><img class="header-icon" src="icon/telephone_blue_icon.svg">  500 500 500</a>
+                    <a class="p-2" style="color:white;" href="#"><img class="header-icon" src="icon/email_blue_icon.svg"> beatrice@beatrice.com</a>
+                </div>
               </div>
-            </div>
-            <div class="center-div">
-              <div style="width: 60%;" class="page-control text-center">
-                <div class="title-small">Więcej <i class="fas fa-angle-right"></i></div>
-              </div>
+          <div class="col-12 col-centered" style="background-color: white; height: auto;">
+            <div class="h-100" style="display:flex;justify-content:center;align-items:center;">
+              <img class="header-icon-logo" src="icon/beatrice_logo.svg">
             </div>
           </div>
-          <div class="footer-image">
-            <img class="d-block w-100 h-100" src="img/main_page_bg_3.jpeg" alt="Third slide">
-          </div>
+          
         </div>
       </div>
-    </div>
-  </div>
+    </footer>
+  </section>
 
   <!-- Page Content -->
   <div class="container-fluid">
@@ -241,15 +286,6 @@
       </div>
     </div>
   </div>
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          footer
-        </div>
-      </div>
-    </div>
-  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

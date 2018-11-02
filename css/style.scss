@@ -5,6 +5,20 @@ html {
     width: 100%;
 }
 
+
+.primary {
+    color: $primary-blue;
+}
+
+.secondary {
+    color: $secondary-blue;
+}
+
+.primary-grey {
+    color: $primary-grey;
+}
+
+
 .rwd-background {
     background-repeat: no-repeat;
     background-position: center;
@@ -18,11 +32,6 @@ html {
 }
 
 .img-bg {
-    background: url(../img/main_page_bg_1.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -31,6 +40,22 @@ html {
     h1 {
         color: white;
         text-shadow: 3px 2px 3px #7070704a;
+    }
+
+    &.first {
+        background: url(../img/main_page_bg_1.jpeg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    &.secondary {
+        background: url(../img/main_page_sm_3.jpeg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
 
@@ -98,6 +123,10 @@ img.bg {
     }
 }
 
+.info-section {
+    margin: 60px 0 60px 0; 
+}
+
 //SHAME
 //   .section-title:after {
 // }
@@ -118,6 +147,22 @@ img.bg {
     left: 0;
     height: 3px;
     width: 45%;
+}
+
+.footer-title{
+    position: relative;
+    margin-bottom: 7px;
+}
+
+
+.footer-title:after {
+    content: "";
+    background: #1085E4;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 2px;
+    width: 25%;
 }
 
 .product-item {
@@ -221,3 +266,11 @@ img.bg {
 //     height: 400px;
 //     border: solid 3px blue;
 // }
+
+footer {
+    height: auto;
+    color: #999;
+    // text-align: center;
+    background-color: #414141;
+    border-top: .05rem solid #e5e5e5;
+}
