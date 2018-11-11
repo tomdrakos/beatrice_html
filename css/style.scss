@@ -1,5 +1,6 @@
 @import 'nav';
 @import 'utilities';
+
 html {
     height: 100%;
     width: 100%;
@@ -152,6 +153,7 @@ img.bg {
 .footer-title{
     position: relative;
     margin-bottom: 7px;
+    color:white;
 }
 
 
@@ -273,4 +275,37 @@ footer {
     // text-align: center;
     background-color: #414141;
     border-top: .05rem solid #e5e5e5;
+    font-size: medium;
+    padding-bottom: 25px;
+
+    .item {
+        background-color:white;
+        color: #707087;
+        border-radius: 50px;
+        margin-top: 5px;
+        font-weight: 500;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+
+.product-details {
+    .header {
+        font-size: smaller !important;
+    }
+
+    .item {
+        background-color:white;
+        color: #707087;
+        border-radius: 50px;
+        margin-top: 5px;
+        font-weight: 500;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }

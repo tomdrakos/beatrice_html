@@ -180,6 +180,7 @@ img.bg {
 .footer-title {
   position: relative;
   margin-bottom: 7px;
+  color: white;
 }
 
 .footer-title:after {
@@ -272,5 +273,35 @@ footer {
   color: #999;
   background-color: #414141;
   border-top: .05rem solid #e5e5e5;
+  font-size: medium;
+  padding-bottom: 25px;
+}
+
+footer .item {
+  background-color: white;
+  color: #707087;
+  border-radius: 50px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+footer .item:hover {
+  text-decoration: none;
+}
+
+.product-details .header {
+  font-size: smaller !important;
+}
+
+.product-details .item {
+  background-color: white;
+  color: #707087;
+  border-radius: 50px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.product-details .item:hover {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
