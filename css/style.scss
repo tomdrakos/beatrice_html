@@ -52,11 +52,20 @@ html {
     }
 
     &.secondary {
-        background: url(../img/main_page_sm_3.jpeg) no-repeat center center fixed;
+        background: url(../img/main_page_sm_3-compressor.jpeg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+    }
+
+    &.secondary-small {
+        background: url(../img/main_page_sm_3-compressor.jpeg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 72vh;
     }
 }
 
@@ -276,7 +285,6 @@ footer {
     background-color: #414141;
     border-top: .05rem solid #e5e5e5;
     font-size: medium;
-    padding-bottom: 25px;
 
     .item {
         background-color:white;
@@ -293,6 +301,10 @@ footer {
 
 
 .product-details {
+
+    width: 100%;
+    text-align: left;
+
     .header {
         font-size: smaller !important;
     }
@@ -308,4 +320,12 @@ footer {
             text-decoration: none;
         }
     }
+
+    .bullet {
+        width: 10px;
+    }
+}
+
+a {
+    color: inherit;
 }

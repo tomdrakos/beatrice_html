@@ -97,7 +97,7 @@
 
   <section class="info-section text-center">
     <div class="container">
-      <h1 class="jumbotron-heading"><span class="primary">B</span><span class="primary-grey">eatrice</span></h1>
+      <h1><span class="primary">B</span><span class="primary-grey">eatrice</span></h1>
       <p class="lead text-muted">Specjalizujemy się w produkcji siatek choinkowych oraz stożków na kwiaty doniczkowe
         oraz cięte.</p>
       <p>
@@ -150,13 +150,13 @@
 
   <!-- Page Content -->
   <div class="container">
-    <div class="section-title">Tworzymy dla Ciebie
-      <div class="subtitle">A co nas cechuje?</div>
+    <div class="section-title" ><span data-sr="enter left move 40px over 1s">Tworzymy dla Ciebie</span>
+      <div class="subtitle" data-sr="enter right move 40px over 1s wait 1s">A co nas cechuje?</div>
     </div>
   </div>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-md-12">
+      <div class="col-md-12" data-sr="enter bottom and scale up 80% over 1s wait 0.3s">
         <div class="text-center">
           <div class="d-inline-block icon-wrapper">
             <i class="fas fa-chart-line"></i>
@@ -167,7 +167,7 @@
         </div>
 
       </div>
-      <div class="col-md-12">
+      <div class="col-md-12" data-sr="enter bottom and scale up 80% over 1s wait 0.3s">
         <div class="text-center">
           <div class="d-inline-block icon-wrapper">
             <i class="fas fa-clock"></i>
@@ -177,7 +177,7 @@
           Wiarygodność
         </div>
       </div>
-      <div class="col-md-12">
+      <div class="col-md-12" data-sr="enter bottom and scale up 80% over 1s wait 0.3s">
         <div class="text-center">
           <div class="d-inline-block icon-wrapper">
             <i class="fas fa-cog"></i>
@@ -194,7 +194,7 @@
   <section>
     <div id="section_products">
       <div class="container">
-        <div class="section-title">Nasze produkty</div>
+        <div class="section-title" data-sr="enter right move 40px over 1s">Nasze produkty</div>
       </div>
       <div class="product-item">
         <div class="header text-center">
@@ -208,7 +208,7 @@
           </div>
           <div class="center-div">
             <div style="width: 60%;" class="page-control text-center">
-              <div class="title-small">Więcej <i class="fas fa-angle-right"></i></div>
+              <div class="title-small"><a href="tree_net.html">Więcej <i class="fas fa-angle-right"></i></a></div>
             </div>
           </div>
         </div>
@@ -236,7 +236,7 @@
           </div>
         </div>
         <div class="footer-image">
-          <img class="d-block w-100 h-100" src="img/main_page_bg_3.jpeg" alt="Third slide">
+          <img class="d-block w-100 h-100" src="img/main_page_sm_3-compressor.jpeg" alt="Third slide">
         </div>
       </div>
     </div>
@@ -254,7 +254,6 @@
         <div class="row h-100">
             <div class="col-12 col-centered" style="background-color: white; height: auto; padding-bottom: 10px; padding-top: 10px;">
                 <div class="" style="display:flex;justify-content:center;align-items:center;">
-                    <!-- <h1 class="jumbotron-heading"><span class="primary">B</span><span class="primary-grey">eatrice</span></h1> -->
                   <img class="header-icon-logo" src="icon/beatrice_logo.svg">
                 </div>
               </div>
@@ -302,12 +301,29 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/scrollReveal.min.js"></script>
   <script type="text/javascript">
 
     $("#btn_go_to_products").click(function () {
       $([document.documentElement, document.body]).animate({
         scrollTop: $("#section_products").offset().top
       }, 2000);
+    });
+    
+    $( document ).ready(function() {
+      var config = {
+        reset: false,
+        // move: '50px',
+        // delay: 'always',
+        vFactor: 0.0, // requires 10% of an element be visible to trigger animation.
+        easing:   'ease-out',
+        // scale:    { direction: 'up', power: '0%' },
+        // viewport: document.getElementById('main'),
+        // viewport: document.getElementsByClassName('container'),
+        // viewport: document.getElementsByTagName('p'),
+        mobile: true
+      }
+        window.sr = new scrollReveal(config);
     });
 
   </script>

@@ -96,8 +96,14 @@ html {
 }
 
 .img-bg.secondary {
-  background: url(../img/main_page_sm_3.jpeg) no-repeat center center fixed;
+  background: url(../img/main_page_sm_3-compressor.jpeg) no-repeat center center fixed;
   background-size: cover;
+}
+
+.img-bg.secondary-small {
+  background: url(../img/main_page_sm_3-compressor.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  height: 72vh;
 }
 
 .section-title {
@@ -274,7 +280,6 @@ footer {
   background-color: #414141;
   border-top: .05rem solid #e5e5e5;
   font-size: medium;
-  padding-bottom: 25px;
 }
 
 footer .item {
@@ -287,6 +292,11 @@ footer .item {
 
 footer .item:hover {
   text-decoration: none;
+}
+
+.product-details {
+  width: 100%;
+  text-align: left;
 }
 
 .product-details .header {
@@ -303,5 +313,13 @@ footer .item:hover {
 
 .product-details .item:hover {
   text-decoration: none;
+}
+
+.product-details .bullet {
+  width: 10px;
+}
+
+a {
+  color: inherit;
 }
 /*# sourceMappingURL=style.css.map */

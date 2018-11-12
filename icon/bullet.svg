@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 153 153">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1085e4;
+      }
+
+      .cls-2 {
+        filter: url(#Ellipse_54);
+      }
+    </style>
+    <filter id="Ellipse_54" x="0" y="0" width="153" height="153" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <circle id="Ellipse_54-2" data-name="Ellipse 54" class="cls-1" cx="67.5" cy="67.5" r="67.5" transform="translate(6 6)"/>
+  </g>
+</svg>
