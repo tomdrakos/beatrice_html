@@ -112,6 +112,12 @@ html {
   height: 65vh;
 }
 
+.img-bg.fourth-xs {
+  background: url(../img/main_second.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  height: 40vh;
+}
+
 .section-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -176,7 +182,7 @@ img.bg {
 }
 
 .info-section {
-  margin: 40px 0 40px 0;
+  margin: 40px 0 50px 0;
 }
 
 .section-title:after {
@@ -396,5 +402,17 @@ h2:before {
   .product-page-title {
     font-size: 55px;
   }
+}
+
+.icon-circle-background {
+  width: 199px;
+  height: 199px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 169px;
+  vertical-align: middle;
+  padding-bottom: 60px;
+  padding-top: 24px;
+  background-color: #007bff;
 }
 /*# sourceMappingURL=style.css.map */
