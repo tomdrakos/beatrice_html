@@ -28,7 +28,6 @@ img.header-icon-logo {
 }
 
 .nav > li:not(:last-child) {
-  border-right: 1px solid red;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -59,16 +58,6 @@ html {
 
 .primary-grey {
   color: #707070;
-}
-
-.rwd-background {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  webkit-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
 }
 
 .img-bg {
@@ -103,7 +92,7 @@ html {
 .img-bg.secondary-small {
   background: url(../img/main_page_sm_3-compressor.jpeg) no-repeat center center fixed;
   background-size: cover;
-  height: 70vh;
+  height: 65vh;
 }
 
 .img-bg.third-small {
@@ -336,10 +325,18 @@ footer .item {
   border-radius: 50px;
   margin-top: 5px;
   font-weight: 500;
+  width: 100%;
 }
 
 footer .item:hover {
   text-decoration: none;
+}
+
+footer .logo-bar {
+  background-color: white;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .product-details {
@@ -357,6 +354,7 @@ footer .item:hover {
   border-radius: 50px;
   margin-top: 5px;
   font-weight: 500;
+  width: 100%;
 }
 
 .product-details .item:hover {
@@ -401,18 +399,6 @@ h2:before {
   width: 10px;
 }
 
-@media screen and (min-width: 992px) {
-  .img-bg h1 {
-    font-size: 70px;
-  }
-  .section-title {
-    width: 40%;
-  }
-  .product-page-title {
-    font-size: 55px;
-  }
-}
-
 .icon-circle-background {
   width: 199px;
   height: 199px;
@@ -423,5 +409,23 @@ h2:before {
   padding-bottom: 60px;
   padding-top: 24px;
   background-color: #007bff;
+}
+
+@media screen and (min-width: 992px) {
+  .img-bg h1 {
+    font-size: 70px;
+  }
+  .section-title {
+    width: 40%;
+  }
+  .product-page-title {
+    font-size: 55px;
+  }
+  footer .item {
+    width: 40%;
+  }
+  .product-details .item {
+    width: 30%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

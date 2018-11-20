@@ -28,7 +28,6 @@ img.header-icon-logo {
 }
 
 .nav > li:not(:last-child) {
-  border-right: 1px solid red;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
