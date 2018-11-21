@@ -1,38 +1,39 @@
-    <!-- Footer -->
+  <!-- Footer -->
   <section>
-    <footer>
-      <div class="container h-100">
-        <div class="row h-100">
-            
-          <div class="col-12" >
-            <div class="h-100 d-flex flex-column order-5 order-sm-5 mt-3">
-              <div class="footer-title" class="p-2" href="#">Dane kontaktowe</div>
-              <a class="p-2 item" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/icon/facebook_blue_icon.svg">
-                beatrice@facebook.com</a>
-              <a class="p-2 item" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/icon/linkedin_blue_icon.svg">
-                beatrice@linkedin.com</a>
-              <a class="p-2 item" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/icon/telephone_blue_icon.svg">
-                500 500 500</a>
-              <a class="p-2 item" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/icon/email_blue_icon.svg">
-                beatrice@beatrice.com</a>
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="h-100 d-flex flex-column order-5 order-sm-5 mt-3">
+                  <div class="footer-title" class="p-2" href="#">Dane kontaktowe</div>
+                  <a class="p-2 item" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/icon/facebook_blue_icon.svg">
+                    beatrice@facebook.com</a>
+                  <a class="p-2 item" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/icon/linkedin_blue_icon.svg">
+                    beatrice@linkedin.com</a>
+                  <a class="p-2 item" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/icon/telephone_blue_icon.svg">
+                    500 500 500</a>
+                  <a class="p-2 item" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/icon/email_blue_icon.svg">
+                    beatrice@beatrice.com</a>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="h-100 d-flex flex-column order-5 order-sm-5 mt-3 mb-3">
+                  <div class="footer-title" href="#">Dane adresowe</div>
+                  <a class="p-2 item" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/icon/location_blue_icon.svg">
+                    Radom | 00-999 | ul. Prosta 1/1 </a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-12">
-              <div class="h-100 d-flex flex-column order-5 order-sm-5 mt-3 mb-3">
-                <div class="footer-title" href="#">Dane adresowe</div>
-                <a class="p-2 item" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri(); ?>/icon/location_blue_icon.svg">
-                  Radom | 00-999 | ul. Prosta 1/1 </a>
-              </div>
-            </div>
-            <div class="col-12 col-centered" style="background-color: white; height: auto; padding-bottom: 10px; padding-top: 10px;">
+          <div>
+            <div class="col-12 col-centered logo-bar">
               <div class="" style="display:flex;justify-content:center;align-items:center;">
-                <img class="header-icon-logo" src="<?php echo get_template_directory_uri(); ?>/icon/beatrice_logo.svg">
+                <img class="icon-logo" src="<?php echo get_template_directory_uri(); ?>/icon/beatrice_logo.svg">
               </div>
             </div>
-        </div>
-      </div>
-    </footer>
-  </section>
+          </div>
+        </footer>
+      </section>
 
     <script src=https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js></script>
     <script src="<?php echo get_template_directory_uri(); ?>/vendor/jquery/jquery.min.js"></script>

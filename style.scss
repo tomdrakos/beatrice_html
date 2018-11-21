@@ -1,9 +1,13 @@
 @import 'css/nav';
 @import 'css/utilities';
 
-html {
-    height: 100%;
-    width: 100%;
+html, body
+{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden !important; 
 }
 
 .primary {
