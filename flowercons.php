@@ -1,22 +1,23 @@
 <?php get_header();
 /*
-Template Name: TreeNet
+Template Name: Flowercons
 */
 ?>
 
-  <div class="img-bg third-small">
+<div class="img-bg secondary-small">
     <div class="container">
+
       <div class="center-div mt-5">
         <div class="product-page-title text-center">
-          <span>Siatki na choinki</h2>
+          <span>Stozki na kwiaty</h2>
         </div>
       </div>
 
       <div class="product-details">
         <div class="row h-100"></div>
-        <div class="col-sm-12">
+        <div class="col-12">
           <div class="d-flex flex-column order-5 order-sm-5 mt-3">
-            <a class="p-2 item" href="#" data-sr="enter left move 40px wait 0.5s"><img class="bullet" src="<?php echo get_template_directory_uri();?>/icon/bullet.svg">
+          <a class="p-2 item" href="#" data-sr="enter left move 40px wait 0.5s"><img class="bullet" src="<?php echo get_template_directory_uri();?>/icon/bullet.svg">
               Najwyższa jakość</a>
             <a class="p-2 item" href="#" data-sr="enter left move 40px wait 0.6s"><img class="bullet" src="<?php echo get_template_directory_uri();?>/icon/bullet.svg">
               Różne rozmiary</a>
@@ -30,6 +31,7 @@ Template Name: TreeNet
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <section class="info-section text-center">
@@ -46,12 +48,12 @@ Template Name: TreeNet
       </p>
     </div>
   </section>
-  <div class="img-bg third-small"></div>
+  <div class="img-bg secondary-small"></div>
 
 
-      <!-- Separator -->
-      <section>
-          <div style="height: 150px;"></div>
-        </section>
+  <!-- Separator -->
+  <section>
+    <div style="height: 150px;"></div>
+  </section>
 
 <?php get_footer(); ?>

@@ -8,7 +8,7 @@
   <section class="info-section text-center">
     <div class="container">
       <h1><span class="primary">B</span><span class="primary-grey">eatrice</span></h1>
-      <p class="lead text-muted" data-sr="enter left move 40px over 1s wait 0.3s">Specjalizujemy się w produkcji siatek choinkowych, stożków na kwiaty doniczkowe
+      <p class="lead text-muted" data-aos="fade-in">Specjalizujemy się w produkcji siatek choinkowych, stożków na kwiaty doniczkowe
         oraz cięte oraz róźnego rodzaju opakwań foliowcyh.</p>
       <p>
         <a href="javascript:void(0);" id="btn_go_to_products" class="btn btn-primary">Zobacz produkty</a>
@@ -85,7 +85,7 @@
             </div>
         </section>    
 
- <div class="img-bg fourth-xs"></div>
+ <div class="img-bg fourth-xs d-none d-sm-block"></div>
 
   <!-- Products -->
   <section>
@@ -107,14 +107,14 @@
                   </div>
                   <div class="center-div">
                     <div style="width: 60%;" class="page-control text-center">
-                      <div class="title-small"><a href="tree_net.html">Więcej <i class="fas fa-angle-right"></i></a></div>
+                      <div class="title-small"><a href="/be/siatkichoinkowe/">Więcej <i class="fas fa-angle-right"></i></div>
                     </div>
                   </div>
                 </div>
         
                 <div class="footer-image">
-                  <img class="d-block w-100 h-100" src="<?php echo get_template_directory_uri();?>/img/main_page_bg_2.jpeg" alt="Third slide">
-                </div>
+                  <img class="d-block w-100 h-100" src="<?php echo content_url();?>/themes/img/main_page_bg_2.jpeg" alt="Third slide">
+                </div></a>
               </div>
         </div>
         <div class="col-sm-12 col-md-5">
@@ -130,13 +130,13 @@
                   </div>
                   <div class="center-div">
                     <div style="width: 60%;" class="page-control text-center">
-                      <div class="title-small"><a href="siatki">Więcej <i class="fas fa-angle-right"></i></div>
+                      <div class="title-small"><a href="/be/stozki-na-kwiaty">Więcej <i class="fas fa-angle-right"></i></div>
                     </div>
                   </div> 
                 </div>
                 <div class="footer-image">
-                  <img class="d-block w-100 h-100" src="<?php echo get_template_directory_uri();?>/img/main_page_sm_3-compressor.jpeg" alt="Third slide">
-                </div>
+                  <img class="d-block w-100 h-100" src="<?php echo content_url();?>/themes/img/main_page_sm_3-compressor.jpeg" alt="Third slide">
+                </div></a>
               </div>
         </div>
       </div>

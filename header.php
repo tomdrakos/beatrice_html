@@ -17,6 +17,7 @@
 
   <!-- TODO: Use directiories from functions -->
 
+  <script src=https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js></script>
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
   <link rel="stylesheet" href='<?php echo get_template_directory_uri(); ?>/vendor/bootstrap/css/bootstrap.min.css' />
   <!-- <link rel="stylesheet" href='<?php echo font_awesome_url(); ?>' integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
@@ -24,11 +25,10 @@
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin-ext" rel="stylesheet">
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/nav.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <link rel="pingback" href="<?php bloginfo('pingback_url');?>" />
 
@@ -85,19 +85,18 @@
 
 
 <nav class="navbar fixed-top navbar-light navbar-expand-sm navbar-template" role="navigation">
-<a class="navbar-brand" href="#">
+<a class="navbar-brand" href="/be/">
       <img class="header-icon-logo" src="<?php echo get_template_directory_uri();?>/icon/beatrice_logo.svg">
     </a>
     <div class="d-flex flex-row order-2 order-sm-3">
       <ul class="navbar-nav flex-row">
-        <li><a class="nav-link px-2" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri();?>/icon/facebook_icon.svg"></a></li>
-        <li><a class="nav-link px-2" href="#"><img class="header-icon" src="<?php echo get_template_directory_uri();?>/icon/linkedin_icon.svg"></a></li>
+        <li><a class="nav-link px-2" href="https://facebook.com"><img class="header-icon" src="<?php echo get_template_directory_uri();?>/icon/facebook_icon.svg"></a></li>
+        <li><a class="nav-link px-2" href="https://linkedin.com"><img class="header-icon" src="<?php echo get_template_directory_uri();?>/icon/linkedin_icon.svg"></a></li>
       </ul>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
-  <div class="container">
 	<!-- Brand and toggle get grouped for better mobile display -->
 	<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -108,15 +107,13 @@
 			'theme_location'    => 'primary',
 			'depth'             => 1,
 			'container'         => 'div',
-			'container_class'   => 'collapse navbar-collapse order-3 order-sm-2"',
+			'container_class'   => 'collapse navbar-collapse order-3 order-sm-2',
 			'container_id'      => 'navbarNavDropdown',
 			'menu_class'        => 'nav navbar-nav ml-auto',
 			'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 			'walker'            => new bs4navwalker(),
 		) );
 		?>
-	</div>
 </nav>
 
-  
-  </header>
+</header>
