@@ -48,6 +48,7 @@ html, body {
   height: 100% !important;
   margin: 0px !important;
   padding: 0px !important;
+  overflow-x: hidden !important;
 }
 
 .primary {
@@ -254,7 +255,7 @@ img.bg {
 .page-control a {
   -webkit-transition: all .8s;
   transition: all .8s;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .page-control a:hover {
@@ -411,6 +412,12 @@ h2:before {
   padding-bottom: 60px;
   padding-top: 24px;
   background-color: #007bff;
+}
+
+@media screen and (min-width: 768px) {
+  html, body {
+    overflow-x: unset !important;
+  }
 }
 
 @media screen and (min-width: 992px) {

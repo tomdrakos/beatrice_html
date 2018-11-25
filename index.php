@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<main>
+<div id="main">
 <div class="img-bg secondary">
     <h1>Siatki choinkowe, stożki na kwiaty oraz opakowania foliowe róznych rozmiarów</h1>
   </div>
@@ -140,10 +140,12 @@
               </div>
         </div>
       </div>
+</section>
+
   <!-- Separator -->
   <section>
     <div style="height: 150px;"></div>
   </section>
 
-</main>
+</div>
 <?php get_footer();?>

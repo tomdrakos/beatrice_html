@@ -74,11 +74,11 @@ $( document ).ready(function() {
         vFactor: 0.0, // requires 10% of an element be visible to trigger animation.
         easing:   'ease-out',
         mobile: true,
-        container: 'main'
+        //viewport: document.getElementById('main')
       }
       window.sr = new scrollReveal(config);
     });
   </script>
-
+</div>
     </body>
 </html>
