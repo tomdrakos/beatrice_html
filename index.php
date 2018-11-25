@@ -1,14 +1,14 @@
 <?php get_header();?>
 
 <main>
-<div class="img-bg first">
-    <h1>Siatki choinkowe, stoźki na kwiaty oraz opakowania foliowe róznych rozmiarów</h1>
+<div class="img-bg secondary">
+    <h1>Siatki choinkowe, stożki na kwiaty oraz opakowania foliowe róznych rozmiarów</h1>
   </div>
-
+  
   <section class="info-section text-center">
     <div class="container">
       <h1><span class="primary">B</span><span class="primary-grey">eatrice</span></h1>
-      <p class="lead text-muted" data-aos="fade-in">Specjalizujemy się w produkcji siatek choinkowych, stożków na kwiaty doniczkowe
+      <p class="lead text-muted" data-sr="enter right move 40px over 1s wait 0.5s">Specjalizujemy się w produkcji siatek choinkowych, stożków na kwiaty doniczkowe
         oraz cięte oraz róźnego rodzaju opakwań foliowcyh.</p>
       <p>
         <a href="javascript:void(0);" id="btn_go_to_products" class="btn btn-primary">Zobacz produkty</a>
@@ -19,10 +19,10 @@
   <div class="img-bg secondary-small">
     <!-- <h1>Siatki choinkowe oraz stożki na kwiaty</h1> -->
   </div>
-
+  
   <!-- Page Content -->
   <div class="container">
-    <div class="section-title" ><span data-sr="enter left move 40px over 1s wait 0.5s">Tworzymy dla Ciebie</span>
+    <div class="section-title"><span data-sr="enter left move 40px over 1s wait 0.5s">Tworzymy dla Ciebie</span>
       <div class="subtitle" data-sr="enter right move 40px over 0.5s">Najlepsze produkty</div>
     </div>
     <div class="row justify-content-md-center text-center" data-sr="enter bottom and scale up 80% over 1s wait 1s">
@@ -50,7 +50,7 @@
       <section class="info-section text-center">
           <div class="container">
               <div class="row justify-content-center">
-                <div class="col-md-12 col-lg-4"  data-sr="enter bottom and scale up 80% over 1s wait 1.3s">
+                <div class="col-md-12 col-lg-4" data-sr="enter bottom and scale up 80% over 1s wait 0.8s">
                   <div class="text-center">
                     <div class="d-inline-block icon-wrapper">
                       <i class="fas fa-chart-line"></i>
@@ -61,7 +61,7 @@
                   </div>
           
                 </div>
-                <div class="col-md-12 col-lg-4" data-sr="enter bottom and scale up 80% over 1s wait 1.6s">
+                <div class="col-md-12 col-lg-4" data-sr="enter bottom and scale up 80% over 1s wait 1.2s">
                   <div class="text-center">
                     <div class="d-inline-block icon-wrapper">
                       <i class="fas fa-clock"></i>
@@ -71,7 +71,7 @@
                     Wiarygodność
                   </div>
                 </div>
-                <div class="col-md-12 col-lg-4" data-sr="enter bottom and scale up 80% over 1s wait 2.1s">
+                <div class="col-md-12 col-lg-4" data-sr="enter bottom and scale up 80% over 1s wait 1.6s">
                   <div class="text-center">
                     <div class="d-inline-block icon-wrapper">
                       <i class="fas fa-cog"></i>

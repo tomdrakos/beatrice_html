@@ -35,32 +35,24 @@
         </footer>
       </section>
 
-    
+
     <!-- <script src="<?php echo get_template_directory_uri(); ?>/vendor/jquery/jquery.min.js"></script> -->
     <script src="<?php echo get_template_directory_uri(); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/vendor/scrollReveal/scrollReveal.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <!-- <script>
-      $(document).ready(function () {
-        AOS.init({ 
-        startEvent: 'load', 
-        easing: 'ease-in-out-quart', 
-        duration: 600,  once: false });            
-      });
-    </script> -->
-
+    <script src="<?php echo get_template_directory_uri(); ?>/vendor/jquery/jquery-1.12.4.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
 
     <script type="text/javascript">
 
-   $(window).on('resize', function () { AOS.refresh(); });
-  $(window).on('load', function() { setTimeout(AOS.refreshHard, 1500); });
+      // $(document).ready(function () {
+      //   AOS.init({
+      //   startEvent: 'load',
+      //   easing: 'ease-in-out-quart',
+      //   duration: 600,  once: false });
+      // });
 
-  $(document).ready(function () {
-    AOS.init({ 
-    startEvent: 'load', 
-    easing: 'ease-in-out-quart', 
-    duration: 600,  once: false });            
-  });
+      //   $(window).on('resize', function () { AOS.refresh(); });
+      // $(window).on('load', function() { setTimeout(AOS.refreshHard, 1500); });
 
 
     $("#btn_go_to_products").click(function () {
@@ -74,17 +66,18 @@
         scrollTop: $("#section_products").offset().top - 80
       }, 2000);
     });
-    
-    // $( document ).ready(function() {
-    //   var config = {
-    //     reset: false,
-    //     vFactor: 0.0, // requires 10% of an element be visible to trigger animation.
-    //     easing:   'ease-out',
-    //     mobile: true
-    //   }
-    //     window.sr = new scrollReveal(config);
-    // });
 
+$( document ).ready(function() {
+
+   var config = {
+        reset: false,
+        vFactor: 0.0, // requires 10% of an element be visible to trigger animation.
+        easing:   'ease-out',
+        mobile: true,
+        container: 'main'
+      }
+      window.sr = new scrollReveal(config);
+    });
   </script>
 
     </body>
