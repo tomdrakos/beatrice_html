@@ -90,8 +90,8 @@
     </a>
     <div class="d-flex flex-row order-2 order-sm-3">
       <ul class="navbar-nav flex-row">
-        <li><a class="nav-link px-2" href="https://facebook.com"><img class="header-icon" src="<?php echo get_template_directory_uri();?>/icon/facebook_icon.svg"></a></li>
-        <li><a class="nav-link px-2" href="https://linkedin.com"><img class="header-icon" src="<?php echo get_template_directory_uri();?>/icon/linkedin_icon.svg"></a></li>
+        <li><a class="nav-link px-2" href="https://www.facebook.com/Beatrice-547609272365434"><img class="header-icon" src="<?php echo get_template_directory_uri();?>/icon/facebook_icon.svg"></a></li>
+        <li><a class="nav-link px-2" href="https://www.linkedin.com/company/beatrice/"><img class="header-icon" src="<?php echo get_template_directory_uri();?>/icon/linkedin_icon.svg"></a></li>
       </ul>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
         <span class="navbar-toggler-icon"></span>

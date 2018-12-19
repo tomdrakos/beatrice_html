@@ -34,7 +34,7 @@ html, body
     }
 
     &.first {
-        background: url(../img/main_page_bg_1.jpeg) no-repeat center center fixed;
+        background: url(../img/people-with_tree.jpeg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -42,7 +42,7 @@ html, body
     }
 
     &.secondary {
-        background: url(../img/main_page_sm_3-compressor.jpeg) no-repeat center center fixed;
+        background: url(../img/flowers_bg.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -50,25 +50,25 @@ html, body
     }
 
     &.secondary-small {
-        background: url(../img/main_page_sm_3-compressor.jpeg) no-repeat center center fixed;
+        background: url(../img/flowers_bg.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        height: 65vh;
+        height: 70vh;
     }
 
     &.third-small {
-        background: url(../img/main_page_bg_2-compressor.jpeg) no-repeat center center fixed;
+        background: url(../img/tree_car_bg.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        height: 65vh;
+        height: 70vh;
     }
 
     &.fourth-xs {
-        background: url(../img/main_second.jpeg) no-repeat center center fixed;
+        background: url(../img/factory_girl.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -209,6 +209,10 @@ img.bg {
     }
 }
 
+a {
+    text-decoration: none !important;
+}
+
 .page-control {
     background-color: $secondary-blue;
     // padding: 3px;
@@ -345,6 +349,7 @@ footer {
     font-size: 30px;
     text-shadow: 5px 5px 5px grey;
     color: white;
+    margin-top: 60px; 
 
     &:before, &:after {
         background-color: $secondary-blue;

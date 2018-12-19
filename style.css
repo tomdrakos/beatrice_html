@@ -83,29 +83,29 @@ html, body {
 }
 
 .img-bg.first {
-  background: url(../img/main_page_bg_1.jpeg) no-repeat center center fixed;
+  background: url(../img/people-with_tree.jpeg) no-repeat center center fixed;
   background-size: cover;
 }
 
 .img-bg.secondary {
-  background: url(../img/main_page_sm_3-compressor.jpeg) no-repeat center center fixed;
+  background: url(../img/flowers_bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
 .img-bg.secondary-small {
-  background: url(../img/main_page_sm_3-compressor.jpeg) no-repeat center center fixed;
+  background: url(../img/flowers_bg.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 65vh;
+  height: 70vh;
 }
 
 .img-bg.third-small {
-  background: url(../img/main_page_bg_2-compressor.jpeg) no-repeat center center fixed;
+  background: url(../img/tree_car_bg.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 65vh;
+  height: 70vh;
 }
 
 .img-bg.fourth-xs {
-  background: url(../img/main_second.jpeg) no-repeat center center fixed;
+  background: url(../img/factory_girl.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 40vh;
 }
@@ -239,6 +239,10 @@ img.bg {
 .product-item .footer-image img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 .page-control {
@@ -375,6 +379,7 @@ footer .logo-bar {
   font-size: 30px;
   text-shadow: 5px 5px 5px grey;
   color: white;
+  margin-top: 60px;
 }
 
 .product-page-title:before, .product-page-title:after {
